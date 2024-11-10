@@ -22,12 +22,18 @@ This GitHub Action runs a Static Application Security Testing (SAST) scan using 
    
    - **Navigate to Tokens**  
      Go to the **Settings** section in the AccuKnox SaaS sidebar.
+
+     ![1](https://github.com/udit-uniyal/container-scan-action/assets/115368361/8f4e188b-d9f3-4404-83af-134d5dc1417a)
    
    - **Create Token**  
      In the "Tokens" section, click on **Create Token**. This action will display your `tenant_id` and allow you to generate an access token.
+
+     ![2](https://github.com/udit-uniyal/container-scan-action/assets/115368361/296bc611-acb8-4918-9d6b-3a8ec7733377)
    
    - **Generate the Token**  
      After clicking **Generate**, copy the `accuknox_token` to use in the workflow.
+
+   ![3](https://github.com/udit-uniyal/container-scan-action/assets/115368361/16032af0-bcac-4787-8f2a-a3fa0edc6ec6)
 
 ### Example Workflow File
 
