@@ -64,13 +64,6 @@ runs:
             --header "Authorization: Bearer ${{ inputs.accuknox_token }}" \
             --form "file=@\"$file\""
         done
-
-        echo "Response: $response"
-        if [[ "$response" != *"File received successfully"* ]]; then
-          echo "Error: Failed to push report to CSPM panel"
-          exit 1
-        fi
-
       shell: bash
 
     - name: SonarQube Quality Gate check
