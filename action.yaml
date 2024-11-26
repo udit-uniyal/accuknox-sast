@@ -19,7 +19,7 @@ inputs:
   label:
     description: "Label created in AccuKnox SaaS for associating the scan results."
     required: true
-  sonar_project_key:
+  project_key:
     description: "The project key in SonarQube."
     required: false
 
